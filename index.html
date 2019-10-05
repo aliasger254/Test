@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Sock Animation</title>
+  
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <span class="logo">Company Logo</span>
+                <a href="#" class="menu" onclick="openMenu()">Menu</a>
+            </nav>
+            <div class="slider"></div>
+            <div class="hero">
+                <img src="./hero-img.jpg" alt="img" class="hero-img"/>
+                <h1 class="hedline">Vacation</h1>
+            </div>
+        </header>
+
+        <div class="flyout-menu">
+            <a href="#" class="close" onclick="closeMenu()">Close</a>
+            <ul class="flyout-menu-inner">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+        <script src="./app.js"></script>  
+    </body>
+</html>
